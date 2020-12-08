@@ -62,8 +62,8 @@ function App() {
             <GoOctoface />
           </a>
         </div>
-        <img className="api-logo" src={apilogo} />
-        <img className="api-logo" src={apilogomovie} />
+        <img className="api-logo" alt="api-logo" src={apilogo} />
+        <img className="api-logo" alt="api-logo" src={apilogomovie} />
       </footer>
     </div>
   );
