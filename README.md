@@ -3,6 +3,8 @@
 
 Indecisive? Uncertain? Worried? Too much to choose from? The name of this app is Qroulette, a time killing aggregator. Qroulette let's you randomize what your next quarantine-indulgence shall be. Try it and you might just discover something new and amazing.
 
+Try it out [here!](https://qroulette.web.app/)
+
 ### Background
 This is a project that was built during a Hack Day during my time at School of Applied Technology. 
 The purpose was to spend the entire day individually to scope, create and finish a small project.
