@@ -1,0 +1,140 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #122535;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #071018;
+  width: 100%;
+  font-size: 6rem;
+  text-align: center;
+  height: 220px;
+  line-height: 90vh;
+  color: #fff;
+  font-family: 'Niconne', cursive;
+  font-weight: 700;
+  text-shadow: 5px 5px 0px #b82403, 20px 15px 0px #009432, 25px 25px 0px #010f15;
+}
+
+.sub-headline {
+  font-size: 1.2rem;
+  text-shadow: 0px 0px;
+  position: absolute;
+  top: -140px;
+}
+
+.btn {
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #1b2d3f;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.btn:hover {
+  background-color: #244160;
+}
+
+.btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.questionMark {
+  color: #fff;
+  text-align: center;
+  font-size: 6rem;
+  margin: 6rem;
+}
+
+.description {
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+  background-color: #2c3a47;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+.description h2 {
+  margin: 0;
+}
+
+.flipcard-front p {
+  color: #fff;
+  text-align: center;
+}
+
+.flipcard-front-text {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+  color: #fff;
+  background-color: #071018;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+.footer p {
+  margin: 0;
+}
+.footer-links {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: white;
+  opacity: 0.8;
+  text-decoration: none;
+  font-size: 24px;
+  padding-top: 0.5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.api-logo {
+  width: 150px;
+  padding-right: 1rem;
+}
