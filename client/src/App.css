@@ -30,6 +30,11 @@ body {
   text-shadow: 5px 5px 0px #b82403, 20px 15px 0px #009432, 25px 25px 0px #010f15;
 }
 
+.headline {
+  position: absolute;
+  top: -220px;
+}
+
 .sub-headline {
   font-size: 1.2rem;
   text-shadow: 0px 0px;

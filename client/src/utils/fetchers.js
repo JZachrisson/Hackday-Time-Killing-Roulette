@@ -1,8 +1,10 @@
 export const movieFetcher = async (query) => {
   try {
-    const res = await fetch(`http://localhost:8080/movies/${query}`);
+    const res = await fetch(
+      `https://qroulette-app.herokuapp.com/movies/${query}`
+    );
     const movies = await res.json();
-    console.log('MOVIES', movies);
+
     const randomNum = Math.floor(Math.random() * 20);
     return movies.results[randomNum];
   } catch (error) {
@@ -12,10 +14,11 @@ export const movieFetcher = async (query) => {
 
 export const podcastFetcher = async (query) => {
   try {
-    const res = await fetch(`http://localhost:8080/podcasts/${query}`);
+    const res = await fetch(
+      `https://qroulette-app.herokuapp.com/podcasts/${query}`
+    );
     const podcasts = await res.json();
-    console.log('PODCASTS', podcasts);
-    console.log('PODCASTS LENGTH', podcasts.length);
+
     const randomNum = Math.floor(Math.random() * 10);
     return podcasts[randomNum];
   } catch (error) {
@@ -25,9 +28,11 @@ export const podcastFetcher = async (query) => {
 
 export const bookFetcher = async (query) => {
   try {
-    const res = await fetch(`http://localhost:8080/books/${query}`);
+    const res = await fetch(
+      `https://qroulette-app.herokuapp.com/books/${query}`
+    );
     const books = await res.json();
-    console.log('BOOKS', books);
+
     const randomNum = Math.floor(Math.random() * 20);
     return books[randomNum].volumeInfo;
   } catch (error) {

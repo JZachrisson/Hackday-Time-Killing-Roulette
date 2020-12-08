@@ -28,7 +28,7 @@ function App() {
     <div className="App">
       <header>
         <div className="header">
-          Qroulette
+          <span className="headline">Qroulette</span>
           <br />
           <span className="sub-headline">
             -A quarantine time-killing roulette
