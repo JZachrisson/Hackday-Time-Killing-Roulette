@@ -1,7 +1,7 @@
 
 # Hackday-Time-Killing-Roulette
 
-Indecisive? Uncertain? Worried? Too much to choose from? The name of this app is Qroulette, a time killing aggregator. Qroulette let's you randomize what your next quarantine-indulgence shall be. Try it and you might just discover something new and amazing.
+Indecisive? Uncertain? Worried? Too much to choose from? The name of this app is Qroulette, a time killing aggregator. Qroulette let's you randomize what your next quarantine-indulgence shall be. You might just discover something new and amazing.
 
 Try it out [here!](https://qroulette.web.app/)
 
