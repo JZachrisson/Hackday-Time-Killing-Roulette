@@ -17,7 +17,6 @@ const Form = ({ handleChange }) => {
       <form onSubmit={handleSubmit}>
         <input
           className="input"
-          type="text"
           value={input}
           onChange={handlingChange}
           placeholder="Random word"
